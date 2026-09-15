@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.send("Hello from my CI/CD application!");
+    res.send("Hello from my first automatic CI/CD deployment!");
 });
 
 app.listen(PORT, () => {
